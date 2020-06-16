@@ -1,0 +1,50 @@
+/*By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+
+/*css added to support Edge, but they work fine in other browsers too*/
+
+a {
+  color: rgb(245, 245, 245);
+}
+
+.border {
+  border: solid rgb(245, 245, 245) 1px;
+}
+
+i {
+  color: rgb(245, 245, 245);
+}
+
+.logo-small,
+.logo {
+  height: auto;
+  width: auto;
+  min-height: auto;
+}
+
+nav ul li {
+  margin: 0 0 2rem 0;
+}
+
+@media screen and (min-width: 900px) {
+
+  header {
+    max-height: 100px;
+  }
+
+  .nav-desktop-ul li {
+    margin: 0 auto;
+  }
+
+  .nav-desktop-ul {
+    max-height: 100px;
+  }
+
+  nav {
+    align-items: baseline;
+  }
+
+  .social-media-wrapper,
+  .icon {
+    justify-content: space-around;
+  }
+}

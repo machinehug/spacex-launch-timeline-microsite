@@ -1,0 +1,101 @@
+/*By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+
+/* ==========================================================================
+   MEDIA QUERIES for desktop/tablet
+   ==========================================================================*/
+
+.nav-desktop,
+.nav-desktop-ul {
+  height: fit-content;
+  height: -moz-max-content;
+  height: intrinsic;
+  height: -webkit-max-content;
+}
+
+.nav-desktop-ul {
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 2rem;
+  max-width: 170rem;
+}
+
+.nav-desktop-li {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  nav {
+    width: 100%;
+    min-height: fit-content;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    margin-top: 2rem;
+  }
+
+  .btn {
+    font-size: 5rem;
+    padding: 3rem 7rem;
+  }
+
+  .btn-send-email {
+    font-size: 1.8rem;
+  }
+
+  .logo {
+    width: 100%;
+    max-width: 30rem;
+  }
+
+  .logo-small {
+    max-width: 20rem;
+  }
+
+  .next-launch {
+    font-size: 1.6rem;
+  }
+
+  .title {
+    padding-top: 3rem;
+  }
+
+  .title-bigger {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-height: 1024px) {
+
+  .home {
+    height: 92vh;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+
+  .to-top-of-page {
+    right: 40rem;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+
+  .to-top-of-page {
+    right: 60rem;
+  }
+}
+
+@media screen and (min-width: 2700px) {
+
+  .to-top-of-page {
+    right: 80rem;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+
+  .to-top-of-page {
+    right: 110rem;
+  }
+}

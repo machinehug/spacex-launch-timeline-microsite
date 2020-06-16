@@ -1,0 +1,77 @@
+/*By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+
+/* ==========================================================================
+   MEDIA QUERIES for smaller mobile devices
+   ==========================================================================*/
+
+@media screen and (max-width: 455px) {
+
+  .logo-launches {
+    max-width: 30rem;
+  }
+
+  .home {
+    height: 84vh;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .title-smaller {
+    padding-top: 2rem;
+  }
+
+  .next-launch-launches {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .loader-container {
+    top: 85%;
+  }
+
+  .btn-send-email {
+    padding: 1.5rem 2.5rem;
+  }
+
+  .next-launch {
+    font-size: 1.6rem;
+  }
+
+  .mission-title {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .title-launch-rocket-ship {
+    padding: 0;
+  }
+
+  .title-rocket {
+    padding-top: 2rem;
+  }
+
+  .launch-year {
+    font-size: 6rem;
+  }
+
+  .launch-img-container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .mission-title {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-height: 810px) {
+
+  .home {
+    height: 85vh;
+  }
+}

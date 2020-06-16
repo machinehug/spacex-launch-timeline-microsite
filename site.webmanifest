@@ -1,0 +1,28 @@
+{
+  "name": "SpaceX microsite Launch Timeline",
+  "short_name": "SpaceX microsite Launch Timeline",
+  "icons": [{
+    "src": "/android-chrome-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "/android-chrome-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }, {
+    "src": "/apple-touch-icon.png",
+    "sizes": "180x180",
+    "type": "image/png"
+  }, {
+    "src": "/mstile-310x150.png",
+    "sizes": "310x150",
+    "type": "image/png"
+  }, {
+    "src": "/mstile-310x310.png",
+    "sizes": "310x310",
+    "type": "image/png"
+  }],
+  "theme_color": "#101010",
+  "background_color": "#101010",
+  "display": "standalone"
+}

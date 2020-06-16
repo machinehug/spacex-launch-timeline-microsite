@@ -1,0 +1,103 @@
+<!--By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com-->
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta name="robots" content="noindex" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SpaceX microsite launch timeline homepage</title>
+  <meta name="description"
+    content="SpaceX microsite where you can see their launch timeline, and read information about space related topics.">
+
+  <link rel="manifest" href="site.webmanifest">
+
+  <meta name="theme-color" content="#101010">
+
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" href="css/mobile-smaller.css">
+  <!--css added to support Edge, but they work fine in other browsers too-->
+  <link rel="stylesheet" href="css/edge.css">
+
+  <script src="https://kit.fontawesome.com/128f22f38c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="bg">
+
+    <header>
+      <div class="open-close-nav-wrapper hidden">
+        <span aria-label="open menu"><i class="hamburger fas fa-bars" aria-hidden="true" title="open menu"></i></span>
+        <span aria-label="close menu"><i class="cross fas fa-times hidden" aria-hidden="true"
+            title="close menu"></i></span>
+      </div>
+      <!--mobile nav-->
+      <nav class="nav-mobile hidden">
+        <ul class="max-width">
+          <li><a href="launches.html">Launches</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="information.html">Information</a></li>
+          <li><a href="credits.html">Credits</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+      <!--desktop nav-->
+      <nav class="nav-desktop hidden">
+        <ul class="nav-desktop-ul max-width">
+          <li><a class="nav-desktop-li" href="launches.html">Launches</a></li>
+          <li><a class="nav-desktop-li" href="contact.html">Contact</a></li>
+          <li><a class="nav-desktop-li" href="information.html">Information</a></li>
+          <li><a class="nav-desktop-li" href="credits.html">Credits</a></li>
+          <li><a class="nav-desktop-li" href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="home wrapper">
+      <main>
+        <div class="flex-column">
+          <img class="logo logo-home" src="img/SpaceX_Logo_White.png" alt="An image of SpaceX’s logo">
+          <h1 class="btn border home-title"><a href="launches.html">LAUNCHES</a></h1>
+          <p class="txt next-launch next-launch-home"></p>
+          <noscript>JavaScript is disabled. JavaScript is required to show the correct launch time.</noscript>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="js/global.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/next-launch.js"></script>
+
+</body>
+
+</html>

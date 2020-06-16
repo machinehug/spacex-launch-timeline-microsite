@@ -1,0 +1,163 @@
+<!--By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com-->
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta name="robots" content="noindex" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SpaceX microsite launch timeline contact</title>
+  <meta name="description"
+    content="SpaceX microsite where you can see their launch timeline, and read information about space related topics.">
+
+  <link rel="manifest" href="site.webmanifest">
+
+  <meta name="theme-color" content="#101010">
+
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" href="css/mobile-smaller.css">
+  <!--css added to support Edge, but they work fine in other browsers too-->
+  <link rel="stylesheet" href="css/edge.css">
+
+  <script src="https://kit.fontawesome.com/128f22f38c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="open-close-nav-wrapper hidden">
+      <span aria-label="open menu"><i class="hamburger fas fa-bars" aria-hidden="true" title="open menu"></i></span>
+      <span aria-label="close menu"><i class="cross fas fa-times hidden" aria-hidden="true"
+          title="close menu"></i></span>
+    </div>
+    <!--mobile nav-->
+    <nav class="nav-mobile hidden">
+      <ul class="max-width">
+        <li><a href="launches.html">Launches</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="information.html">Information</a></li>
+        <li><a href="credits.html">Credits</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <!--desktop nav-->
+    <nav class="nav-desktop hidden">
+      <ul class="nav-desktop-ul max-width">
+        <li><a class="nav-desktop-li" href="launches.html">Launches</a></li>
+        <li><a class="nav-desktop-li" href="contact.html">Contact</a></li>
+        <li><a class="nav-desktop-li" href="information.html">Information</a></li>
+        <li><a class="nav-desktop-li" href="credits.html">Credits</a></li>
+        <li><a class="nav-desktop-li" href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="wrapper bottom-padding">
+    <main>
+      <div class="max-width txt-wrapper">
+        <h1 class="title contact-title">CONTACT</h1>
+        <section class="padding border padding-contact">
+          <h2 class="title-webdesigner"><strong>EMAIL THE WEBDESIGNER</strong></h2>
+
+          <hr>
+          <div class="disclaimer-container">
+            <h3 class="title-smaller title-disclaimer"><strong>DISCLAIMER!</strong></h3> <br />
+            <span class="txt-start"><strong>I am in NO WAY SHAPE OR FORM</strong></span> affiliated with SpaceX
+            or anything space related. I’m just a webdesigner. I made this website for a school project.
+          </div>
+          <br />
+          See my <a href="https://github.com/machinehug" title="opens another website" class="redirect-link">GitHub</a> for
+          more of my work.
+          <br />
+          <br />
+          Feel free to contact me by filling out the form. (This will open your email application.)
+
+          <!--CONTACT FORM-->
+          <form id="contactForm" method="post" enctype="text/plain">
+            <div class="form-group contact-wrapper">
+              <div class="contact-email-wrapper contact-wrapper-inner">
+                <span aria-label="Your email"><i class="fas fa-at contact-icon" aria-hidden="true" title="email address"></i></span>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your email...">
+              </div>
+              <div class="form-error">Please enter your email address</div>
+              <div class="form-error">Please enter a valid email address</div>
+            </div>
+            <div class="form-group contact-wrapper">
+              <div class="contact-subject-wrapper contact-wrapper-inner">
+                <span aria-label="Email subject"><i class="far fa-smile contact-icon" aria-hidden="true" title="email subject"></i></span>
+                <input maxlength="30" type="text" class="form-control" name="subject" id="subject"
+                  placeholder="Email subject...">
+              </div>
+              <div class="form-error">Please enter an email subject</div>
+            </div>
+            <div class="form-group message-wrapper">
+              <span aria-label="Your message. 10-1000 characters"><i class="far fa-envelope contact-icon" aria-hidden="true" title="message"></i></span>
+              <textarea maxlength="1000" minlength="10" placeholder="Message (10-1000 characters)..." name="message"
+                id="message" rows="8"></textarea>
+              <div class="form-error">Please add a message (10-1000 characters)</div>
+            </div>
+            <div class="clearfix send-email-wrapper">
+              <button class="btn border btn-send-email" type="submit" id="submit">SEND EMAIL</button>
+            </div>
+            <noscript>JavaScript is disabled. JavaScript is required to both see my email address and be able to send me
+              an email.</noscript>
+          </form>
+        </section>
+        <br />
+        <section class="padding contact-spacex-wrapper border">
+          <img class="logo logo-contact" src="img/SpaceX_Logo_White.png" alt="SpaceX logo">
+          <br />
+          <div class="spacex-website-container">
+            <strong>Website:</strong> <a href="https://spacex.com" title="opens another website"
+              class="redirect-link">spacex.com</a>
+          </div>
+          <div class="social-media-wrapper">
+            <a href="https://twitter.com/spacex" title="opens another website" class="redirect-link"><span
+                aria-label="open SpaceX's Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></span></a>
+            <a href="https://www.youtube.com/spacex" title="opens another website" class="redirect-link"><span
+                aria-label="open SpaceX's YouTube channel"><i class="fab fa-youtube" aria-hidden="true"></i></span></a>
+            <a href="https://www.flickr.com/photos/spacex" title="opens another website" class="redirect-link"><span
+                aria-label="open SpaceX's Flickr"><i class="fab fa-flickr" aria-hidden="true"></i></span></a>
+            <a href="https://www.instagram.com/spacex/" title="opens another website" class="redirect-link"><span
+                aria-label="open SpaceX's Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></span></a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/contact.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/header.js"></script>
+
+</body>
+
+</html>
