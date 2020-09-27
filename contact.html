@@ -1,4 +1,4 @@
-<!--By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com-->
+<!--By Victoria Pettersen > github.com/machinehug & machinehug.com-->
 
 <!doctype html>
 
@@ -18,21 +18,21 @@
 
   <meta name="theme-color" content="#101010">
 
-  <link rel="icon" href="icon.png" type="image/png">
-  <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
-  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
-  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+  <link rel="icon" href="favicons/icon.png" type="image/png">
+  <link rel="icon" type="image/png" href="favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicons/favicon-128.png" sizes="128x128" />
+  <link rel="apple-touch-icon-precomposed" href="favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/apple-touch-icon-152x152.png" />
   <meta name="msapplication-TileColor" content="#FFFFFF" />
   <meta name="msapplication-TileImage" content="mstile-144x144.png" />
   <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
@@ -46,7 +46,7 @@
   <!--css added to support Edge, but they work fine in other browsers too-->
   <link rel="stylesheet" href="css/edge.css">
 
-  <script src="https://kit.fontawesome.com/128f22f38c.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
 
 </head>
 
@@ -94,7 +94,8 @@
             or anything space related. I’m just a webdesigner. I made this website for a school project.
           </div>
           <br />
-          See my <a href="https://github.com/machinehug" title="opens another website" class="redirect-link">GitHub</a> for
+          See my <a href="https://github.com/machinehug" title="opens another website" class="redirect-link">GitHub</a>
+          for
           more of my work.
           <br />
           <br />
@@ -104,7 +105,8 @@
           <form id="contactForm" method="post" enctype="text/plain">
             <div class="form-group contact-wrapper">
               <div class="contact-email-wrapper contact-wrapper-inner">
-                <span aria-label="Your email"><i class="fas fa-at contact-icon" aria-hidden="true" title="email address"></i></span>
+                <span aria-label="Your email"><i class="fas fa-at contact-icon" aria-hidden="true"
+                    title="email address"></i></span>
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your email...">
               </div>
               <div class="form-error">Please enter your email address</div>
@@ -112,14 +114,16 @@
             </div>
             <div class="form-group contact-wrapper">
               <div class="contact-subject-wrapper contact-wrapper-inner">
-                <span aria-label="Email subject"><i class="far fa-smile contact-icon" aria-hidden="true" title="email subject"></i></span>
+                <span aria-label="Email subject"><i class="far fa-smile contact-icon" aria-hidden="true"
+                    title="email subject"></i></span>
                 <input maxlength="30" type="text" class="form-control" name="subject" id="subject"
                   placeholder="Email subject...">
               </div>
               <div class="form-error">Please enter an email subject</div>
             </div>
             <div class="form-group message-wrapper">
-              <span aria-label="Your message. 10-1000 characters"><i class="far fa-envelope contact-icon" aria-hidden="true" title="message"></i></span>
+              <span aria-label="Your message. 10-1000 characters"><i class="far fa-envelope contact-icon"
+                  aria-hidden="true" title="message"></i></span>
               <textarea maxlength="1000" minlength="10" placeholder="Message (10-1000 characters)..." name="message"
                 id="message" rows="8"></textarea>
               <div class="form-error">Please add a message (10-1000 characters)</div>
